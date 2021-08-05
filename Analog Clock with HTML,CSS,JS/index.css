@@ -1,0 +1,45 @@
+#clockContainer{
+    position: relative;
+    /* border: 2px solid red; */
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour , #minute ,#second{
+ position: absolute;
+ background: rgb(0, 0, 0);
+ border-radius: 10px;
+ /* It is to rotate the hands from their bottom */
+ transform-origin: bottom;
+ /* height: ;
+ width: ; */
+}
+
+#hour{
+          width: 1.8%;
+    height: 22%;
+    top: 28%;
+    left: 48.9%;
+    
+    opacity: 0.8;
+    /* display: none; */
+}
+#minute{
+    width: 1.6%;
+    height: 28%;
+    top: 22%;
+    left: 48.9%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#second{
+    width: 1%;
+    height: 33%;
+    top: 17%;
+    left: 49%;
+    opacity: 0.8;
+    /* display: none;    */
+}

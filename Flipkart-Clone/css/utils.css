@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+:root {
+    --main-bg-color: #2874f0;
+  }
+
+  .flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer; 
+}
+
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    margin: 26px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+hr{
+    margin: 10px 0;
+    /* width: 1.5px; */
+    height: 1px;
+}

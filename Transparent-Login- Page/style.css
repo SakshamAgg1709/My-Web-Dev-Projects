@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    /* border: 12px solid black; */
+    color: white;
+    position: absolute;
+    top: 244px;
+    left: 39%;
+}
+
+.container h1 {
+    display: inline-block;
+    font-size: 42px;
+    border-bottom: 5px solid rgb(138, 0, 126);
+    margin-bottom: 23px;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    width: 100%;
+    /* border: 3px solid purple; */
+    border-bottom: 2px solid rgb(245, 25, 234);
+    margin: 27px 12px;
+    font-weight: bold;
+}
+
+.box input {
+    background: none;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    /* Font size will decide the size of the whole input  */
+    padding: 6px 10px;
+}
+
+.box i {
+    width: 25px;
+    /* float: left; */
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 6px;
+    outline: none;
+    width: 35%;
+    font-size: 17px;
+    border-radius: 22px;
+    border: 2px solid purple;
+    color: white;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 6px;
+    outline: none;
+    width: 35%;
+    font-size: 17px;
+    border-radius: 22px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background: rgb(155, 141, 141);
+    opacity: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+

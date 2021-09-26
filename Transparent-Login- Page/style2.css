@@ -1,0 +1,22 @@
+@media only screen and (min-width: 350px) and (max-width: 680px) {
+    .container {
+        margin: 40px 15px;
+        position: relative;
+    }
+    .container h1 {
+        font-size: 30px;
+        text-align: center;
+        width: unset;
+    }
+    .box input {
+        margin: 10px auto;
+    }
+
+    .box {
+        width: 75%;
+        
+        border-bottom: 2px solid rgb(245, 25, 234);
+        margin: 27px 21px;
+        font-weight: bold;
+    }
+}

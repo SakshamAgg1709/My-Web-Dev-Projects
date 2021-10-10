@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.content{
+    font-family: 'Potta One', 'sans-serif';
+}
+.logo{
+    padding:  0 23px;
+}
+.logo img{
+    width: 34px;
+}
+
+/* The below class is from the file we hve linked - prism  */
+.toolbar-item button{
+    /* Here !important means - requesting the browser to implement this css no matter what happen */
+    padding: 5px 14px !important;
+    color: white !important;
+    cursor: pointer !important;
+    border: 5px solid white !important;
+    border-radius: 10px !important;
+    font-size: 1em !important;
+}
+
+.container {
+    /* background-color: red; */
+    width: 55vw;
+    padding: 32px 0;
+    margin: auto;
+    font-family: 'Roboto', 'sans-serif';
+    /* font-weight: bold; */
+}
